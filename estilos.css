@@ -37,10 +37,10 @@ header{
     height: 1800px;
     right: 10%;
     transform: translate(15%);
-    background: #ADA996;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: #a8ff78;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+         
 }
 
 
@@ -59,10 +59,10 @@ nav{
     position: fixed;
     z-index: 100;
     border-bottom: 3px solid rgb(218, 213, 213);
-    background: #5433FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                      
 }
 .logo{
     margin-top: 15px;
@@ -95,16 +95,14 @@ nav{
 }
 .enlaces-menu li{
     padding: 0 40px;
-    list-style-type: none;   
+    list-style-type: none;  
 }
 
 .enlaces-menu li a{
     text-decoration: none;
     font-size: 30px;
-    color: rgb(68, 68, 68);
-    font-weight: bolder;
-    
-  
+    color: white;
+    font-weight: bolder; 
 }
 
 /*primera seccion*/
@@ -145,9 +143,6 @@ nav{
     top:380px;
     background-image: url(/images/foto.jpg);
     background-size:cover;
-    /*border: 1px solid rgb(179, 170, 170);*/
-
-
 }
 
 .mitad1{
@@ -181,8 +176,9 @@ nav{
     margin-bottom: 1px;
 }
 .mitad2 h4{
-    margin-top: 30px;
-    font-size: 30px;
+    margin-top: 10px;
+    font-size: 40px;
+    padding: 0px 80px;
 }
 .apellido{
     color: rgb(218, 15, 15);
@@ -251,40 +247,52 @@ nav{
     }
 }
 
-/*cuarta seccion*/
-.secion3{
+
+/* CUARTA SECCION*/
+
+.secion4{
+    
     width: 100%;
-    height: 620px;
-    background: #ADA996;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 600px;
+    background: #a8ff78;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.secion3 h2{
-    padding: 25px;
-    
-    text-align: center;
-    font-size: 50px;
+.tarjeta_cuadros{
+    width: 75%;
+    height: 500px;
+    margin-left: 10%;
 }
+.descripcion2{
+    font-size: 30px;
+    width: 100%;
+    height: 250px;
+    background-color: transparent;
+    text-align: justify;
+    margin-left: 5%;
+    transform: translate(-5%);
+    padding: 30px 80px;
+}
+
 
 .margenes{
     margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
     
 }
 .cuadro_imagen{
     display: flex;
     justify-content: space-around;
-   
     flex-wrap: wrap;
 }
 
 
 .cuadro_imagen figure{
     position: relative;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     overflow: hidden;
     border-radius: 6px;
     box-shadow: 0px 15px 25px rgb(0, 0, 0, 0.50);
@@ -341,15 +349,14 @@ nav{
 
 
 
-
-
 /* quinta SECCION*/
 .secion5{
     width: 100%;
-    height: 1500px;
-    background: #ADA996;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 1350px;
+    background: #a8ff78;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 
 }
 
@@ -361,10 +368,9 @@ nav{
 
 
 .tarjeta_proyecto{
-    width: 50%;
+    width: 75%;
     height: 350px;
-    transform: translate(50%);
-    
+    transform: translate(15%);
     
 }
 
@@ -377,7 +383,7 @@ nav{
 
 .cuadro_imagenes{
     width: 100%;
-    height: 510px;
+    height: 780px;
     background-size: cover;
     padding: 5px 10px;
     border: 5px solid rgba(56, 37, 37, 0.5);
@@ -400,20 +406,7 @@ nav{
 
 
 /* sexta SECCION*/
-.secion6{
-    width: 100%;
-    height: 200px;
-    
 
-
-}
-.secion6 h2{
-    margin-left: 40px;
-    text-align: center;
-    padding: 25px;
-    font-size: 50px;
-    
-}
 
 .modal-body{
     font-size: 50px;
@@ -425,7 +418,6 @@ nav{
     font-size: 50px;
 }
 .boton_whatsap{
-   
     position: absolute;
     margin-top: 150px;
     width: 120px;
@@ -450,6 +442,9 @@ nav{
 .asunto{
     width: 100%;
     height: 200px;
+    background-image: url(images/f_w.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .boton_hotmail{
@@ -479,13 +474,41 @@ nav{
     font-size: 50px;
     color: black;
 }
+.circulo2{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10%;
+    transform: translate(-50%);
+    top:5px;
+    background-image: url(/images/foto.jpg);
+    background-size:cover;
+}
+.espacio{
+    position: absolute;
+    color: white;
+    padding: 0px 170px;
+    font-size: 40px;
+   
+}
+.bicono{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    color: white;
+    padding: 0px 0px;
+}
+.modal-header{
+    height: 105px;
+}
 
 
 footer{
-    
-    background: #ADA996;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #a8ff78;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 
@@ -493,7 +516,7 @@ footer{
 
 
 /*dispositivos moviles*/
-@media (max-width:570px){
+@media (max-width:470px){
 
     .boton{
         display: block;
@@ -502,14 +525,14 @@ footer{
         right: 30px;
     }
     .logo{
-        margin-left: 35px;
+        margin-left: 25px;
     }
 
     nav{
        
         flex-direction: column;
         align-items: flex-start;
-        padding:15px 0;
+        padding:5px 0;
     }
 
     .enlaces-menu{
@@ -551,178 +574,165 @@ footer{
        transform: rotate(45deg) translate(-21px,-04px);
     }
 
-
     /*primera seccion*/
 
 .fondo{
     width: 100%;
-    min-height: 400px; 
-    background-color:white;
+    min-height: 800px; 
  }
- 
+ header{
+    height: 100px;
+}
+@keyframes movimiento{
+    from{
+        background-position-y: top;
 
+    }to{
+        background-position-y: bottom;
+    }
+}
+
+.cubre_fondo{
+    height: 100px;
+}
+
+.cuerpo{
+    top:2%;
+}
+.circulo{
+    width: 100px;
+    height: 100px;
+    margin-top: 230px;
+    transform: translate(-70%);
+}
+.fondo{
+    width: 100%;
+    min-height: 600px;
+}
+   
  .cuadrado{
-     width: 180px;
-     margin-left: 23%;
-     height: 100px;
-     position: absolute;
-     text-align: center;
-     left: 20%;
-     transform: translate(-35%);
+     top:0px;
+    
  }
- 
- .circulo{
-     width: 100px;
-     height: 100px;
-     border-radius: 50%;
-     position: absolute;
-     left: 40%;
-     transform: translate(-50%);
-     top:200px;
-     background-image: url(images/foto.jpg);
-     background-size:cover;
- }
- 
-
- .mitad2{
-     top:250px;
-     width: 100%;
-     height: 140px;
-     background:transparent;
-     position: absolute;
- }
- 
- .linea{
-     margin-bottom: 1px;
-     margin-left: 15%;
-     width: 75%;
-     height: 2px;
-     background: #a8ff78;  /* fallback for old browsers */
-     background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
-     background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- }
- .mitad2 h1{
-     font-size: 24px;
-     margin-top: 60px;
-     margin-bottom: 1px;
- }
- .mitad2 h4{
-     margin-top: 5px;
-     font-size: 18px;
- }
- .apellido{
-     color: rgb(218, 15, 15);
- }
-
-
-/*tecera seccion*/
-
-
-.slider{ 
-    top:120px;
-    width: 100%; 
+ .mitad1 .mitad2 h1{
+   margin-top: 110px;
+   font-size: 20px;
+   margin-right: 250px; 
+    padding-left: 100px;
 }
-
-.slider li{
-    position: absolute;
-    background-size:cover;
-    transform: translate(-3px); 
-    animation: slider 1s linear infinite;
-    width: 100%;
-    height: 500px;
-}
-
-/**/
-.secion3{
-    width: 100%;
-    height: 450px;
-    background: tomato  /* fallback for old browsers */   
-}
-
-.secion3 h2{
-    margin-left: 10px;
-    text-align: center;
-    padding: 25px;
+.mitad1 .mitad2 h4{
+    margin-top: 1px;
     font-size: 20px;
+    margin-right: 150px; 
+    padding-left: 100px;
 }
 
-
-.cuadro_imagen{
-    margin-left: 10px;
-    margin-right: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+.secion4{
+    width: 100%;
+    height: 300px;
 }
 
-
+.tarjeta_cuadros{
+    width: 75%;
+    height: 1800px;
+}
+.descripcion2{
+    font-size: 20px;
+    height: 650px;
+    padding: 1px 1px;
+}
 .cuadro_imagen figure{
-    position: relative;
-    height: 70px;
-    width: 70px;
-    overflow: hidden;
-    border-radius: 6px;
-    box-shadow: 0px 15px 25px rgb(0, 0, 0, 0.50);
-    cursor: pointer;
-    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+}
+.titulo{
+    font-size: 30px;
 }
 
-
-.cuadro_imagen figure .capa h3{
-    color: white;
-    font-size: 20px;
-    margin-bottom: 5px;
-    transition: all 500ms ease-out;
-    margin-top: 2px;
-
-}
-.cuadro_imagen figure .capa p{
-    color: white;
-    font-size: 20px;
-    text-align: center;
-}
-/* sexta SECCION*/
 .secion5{
-    width: 100%;
-    height: 500px;
-    background:rgb(196, 19, 19);
+   margin-top: 700px;
+   height: 1300px;
 }
-.secion5 h2{
-    margin-left: 40px;
-    text-align: center;
-    font-size: 40px;
+.cuadro_imagenes{
+    height: 200px;
 }
-.tarjeta_proyecto{
+.descripcion{
+    padding: 1px 1px;
+    font-size: 20px;
+}
+.text-center h1{
+    font-size: 20px;
+}
+.cuerpo2{
+    width: 75%;    
+}
+
+.boton_whatsap{
+    margin-top: 50px;
+    width: 80px;
+    height: 80px;
+    right: 70%;
+}
+.boton_hotmail{
+    margin-top: 50px;
+    width: 80px;
+    height: 80px;
+    right: 65%;
+}
+.slider{
+    display: block;
+}
+.linea{
+   display: none;
+}
+
+.circulo2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;   
+    left: 10%;
+    top:30px;
+}
+.espacio{
     position: absolute;
-    width: 80%;
-    height: 40%;
-    margin-top: 2px;
-    background-image: url(images/imagen_proyecto1.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+    color: white;
+    padding: 0px 70px;
+    font-size: 30px;
+   
+}
+.bicono{
+    display: none;
+}
+.modal-header{
+    height: 105px;
+}
 
-}
-
-.modal-body{
-    font-size: 30px;
-}
-.modal-title{
-    font-size: 30px;
-}
-.btn-close{
-    font-size: 30px;
-}
 .btn_enviar1{
     font-size: 30px;
-}
-.secion6 h2{
-    text-align: center;
-    font-size: 40px;
+    color: white;
 }
 
-
+.asunto{
+   font-size: 30px;
 }
+.coreo h5{
+    font-size: 25px;
+    color: white;
+}
+
+.btn_enviar2{
+    font-size: 25px;
+    color: white;
+}
+.nombres{
+    font-size: 25px;
+}
+.textarea2{
+    font-size: 25px;
+}
+}
+ 
+
 
 @media (max-width:1200px){
 

@@ -43,11 +43,8 @@ async function handleSubmit(event) {
 const enviar = document.querySelector('#enviar_whatsap');
 enviar.addEventListener('click', enviarMen)
 function enviarMen() {
-
-    var nombre = document.querySelector('.nombre_usu').value
     var asunto = document.querySelector('.asunto').value
-
-    var url1 = "https://api.whatsapp.com/send?phone=593996621383&text=De: " + nombre + "%0A%0AAsunto:  %0A" + asunto +"%0A";
+    var url1 = "https://api.whatsapp.com/send?phone=593996621383&text=" + asunto +"%0A";
     window.open(url1);
     
 }
