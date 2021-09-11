@@ -27,14 +27,14 @@ header{
 .cuerpo{
     position:absolute;
     width: 100%;
-    height: 1800px;
+    height: 2100px;
     top:10%;
     background-color:transparent;
 }
 
 .cuerpo2{
     width: 75%;
-    height: 1800px;
+    height: 2100px;
     right: 10%;
     transform: translate(15%);
     background: #a8ff78;  /* fallback for old browsers */
@@ -122,7 +122,7 @@ nav{
 }
 
 .cuadrado{
-    top:190px;
+    top:90px;
     width: 570px;
     margin-left: 23%;
     height: 800px;
@@ -140,7 +140,7 @@ nav{
     position: absolute;
     left: 45%;
     transform: translate(-50%);
-    top:380px;
+    top:430px;
     background-image: url(/images/foto.jpg);
     background-size:cover;
 }
@@ -153,7 +153,7 @@ nav{
     border-radius: 25px;
 }
 .mitad2{
-    top:500px;
+    top:550px;
     width: 100%;
     height: 200px;
     background:transparent;
@@ -162,22 +162,15 @@ nav{
     /*box-shadow: 0px 0px 2px 2px rgba(58, 56, 56, 0.5); */
 }
 
-.linea{
-    margin-left: 15%;
-    width: 75%;
-    height: 2px;
-    background: #a8ff78;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+
 .mitad2 h1{
-    font-size: 60px;
+    font-size: 50px;
     margin-top: 70px;
     margin-bottom: 1px;
 }
 .mitad2 h4{
     margin-top: 10px;
-    font-size: 40px;
+    font-size: 30px;
     padding: 0px 80px;
 }
 .apellido{
@@ -202,7 +195,8 @@ nav{
 .slider{
     position: absolute;
     left: 45%;
-    top:10%;
+    top:5%;
+   
     
 }
 
@@ -215,7 +209,6 @@ nav{
     height: 1000px;
     transform: translate(-50%); 
     background-repeat: no-repeat; 
-
 }
 
 .slider .img1{
@@ -253,7 +246,7 @@ nav{
 .secion4{
     
     width: 100%;
-    height: 600px;
+    height: 800px;
     background: #a8ff78;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -261,8 +254,9 @@ nav{
 
 .tarjeta_cuadros{
     width: 75%;
-    height: 500px;
+    height: 800px;
     margin-left: 10%;
+    padding: 50px 0px;
 }
 .descripcion2{
     font-size: 30px;
@@ -271,21 +265,20 @@ nav{
     background-color: transparent;
     text-align: justify;
     margin-left: 5%;
-    transform: translate(-5%);
-    padding: 30px 80px;
+    transform: translate(-5%);  
 }
 
 
 .margenes{
-    margin-top: 5%;
     margin-left: 5%;
-    margin-right: 5%;
-    
+    margin-right: 5%;  
+    padding: 150px 0px;
 }
 .cuadro_imagen{
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: space-between;
+   
 }
 
 
@@ -297,9 +290,7 @@ nav{
     border-radius: 6px;
     box-shadow: 0px 15px 25px rgb(0, 0, 0, 0.50);
     cursor: pointer;
-    margin-left: 10px;
-    
-    
+    margin-left: 10px; 
 }
 .cuadro_imagen figure img{
     width: 100%;
@@ -451,8 +442,8 @@ nav{
     position: absolute;
     width: 120px;
     height: 120px;
-    right: 16%;
-    transform: translate(90%);
+    right: 12%;
+    transform: translate(-7%);
     background-image: url(images/logo_correo.png);
     background-size:cover;
    
@@ -492,13 +483,7 @@ nav{
     font-size: 40px;
    
 }
-.bicono{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    color: white;
-    padding: 0px 0px;
-}
+
 .modal-header{
     height: 105px;
 }
@@ -514,6 +499,113 @@ background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, F
 
 
 
+
+
+
+
+@media (max-width:1900px){
+
+
+    .slider{
+        position: absolute;
+        top:5%;
+        width: 100%;
+        background-size:cover;
+    }
+    
+    .slider li{
+        animation: slider 1s linear infinite;
+        width: 650px;
+        height: 650px;
+    }
+    .circulo{    
+        width: 120px;  
+        height: 120px;
+        top:210px;
+    }
+    .mitad2{
+        top:260px;  
+    }
+
+
+    .mitad2 h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .mitad2 h4{
+       
+        font-size: 30px;  
+        margin: 0px  100px;
+        padding: 0px 50px; 
+    }
+    .fondo{
+        width: 100%;
+        min-height: 700px;
+    }
+  
+
+    .secion4{
+        width: 100%;
+        height: 800px;
+    }
+    
+    .tarjeta_cuadros{
+        width: 75%;
+        height: 800px;
+    }
+    .descripcion2{
+        font-size: 30px;
+        height: 500px;
+        padding: 1px 1px;
+    }
+    .cuadro_imagen figure{
+        height: 70px;
+        width: 70px;
+    }
+    .titulo{
+        font-size: 40px;
+    }
+
+
+    .secion5{
+        margin-top: 100px;
+        height: 1300px;
+     }
+     .cuadro_imagenes{
+         height: 340px;
+     }
+     .descripcion{
+         padding: 1px 1px;
+         font-size: 30px;
+     }
+     .text-center h1{
+         font-size: 30px;
+     }
+
+    .cuadrado{
+        top:150px;
+
+    }
+
+    .circulo2{
+        left: 15%;
+    }
+    .espacio{
+        position: absolute;
+        color: white;
+        padding: 0px 120px;
+        font-size: 30px;
+       
+    }
+    .espacio2{
+        position: absolute;
+        color: white;
+        padding: 0px 10px;
+        font-size: 30px;
+       
+    }
+
+}
 
 /*dispositivos moviles*/
 @media (max-width:470px){
@@ -576,12 +668,10 @@ background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, F
 
     /*primera seccion*/
 
-.fondo{
-    width: 100%;
-    min-height: 800px; 
- }
+
  header{
     height: 100px;
+   
 }
 @keyframes movimiento{
     from{
@@ -600,31 +690,31 @@ background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, F
     top:2%;
 }
 .circulo{
-    width: 100px;
-    height: 100px;
-    margin-top: 230px;
-    transform: translate(-70%);
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+    transform: translate(-50%);
 }
 .fondo{
     width: 100%;
-    min-height: 600px;
+    min-height: 50px;
 }
-   
  .cuadrado{
-     top:0px;
-    
+     top:1px;
+     height: 50px;
  }
+
  .mitad1 .mitad2 h1{
-   margin-top: 110px;
+   margin-top: 80px;
    font-size: 20px;
-   margin-right: 250px; 
-    padding-left: 100px;
+   margin-right: 0px; 
+   padding-left: 15px;
+   
 }
 .mitad1 .mitad2 h4{
-    margin-top: 1px;
-    font-size: 20px;
-    margin-right: 150px; 
-    padding-left: 100px;
+display: none;
+    
+   
 }
 
 .secion4{
@@ -634,7 +724,7 @@ background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, F
 
 .tarjeta_cuadros{
     width: 75%;
-    height: 1800px;
+    height: 300px;
 }
 .descripcion2{
     font-size: 20px;
@@ -651,10 +741,11 @@ background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, F
 
 .secion5{
    margin-top: 700px;
-   height: 1300px;
+   height: 1280px;
 }
 .cuadro_imagenes{
-    height: 200px;
+    
+    height: 130px;
 }
 .descripcion{
     padding: 1px 1px;
@@ -667,25 +758,18 @@ background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, F
     width: 75%;    
 }
 
-.boton_whatsap{
-    margin-top: 50px;
-    width: 80px;
-    height: 80px;
-    right: 70%;
-}
-.boton_hotmail{
-    margin-top: 50px;
-    width: 80px;
-    height: 80px;
-    right: 65%;
-}
 .slider{
-    display: block;
-}
-.linea{
-   display: none;
+    top:6%;
+    width: 100%;
+    height: 120px;
+
 }
 
+.slider li{
+    animation: slider 1s linear infinite;
+    width: 320px;
+    height: 320px;
+}
 .circulo2{
     width: 50px;
     height: 50px;
@@ -700,9 +784,7 @@ background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, F
     font-size: 30px;
    
 }
-.bicono{
-    display: none;
-}
+
 .modal-header{
     height: 105px;
 }
@@ -730,44 +812,46 @@ background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, F
 .textarea2{
     font-size: 25px;
 }
+.cuadrado{
+    width: 75%;
+    height: 400px;
 }
- 
+.mitad2 h4{
+    width: 100%;
+    transform: translate(-50%);
+}
+.margenes{
+    margin-left: 1%;
+    margin-right: 1%;  
+    padding: 0px 0px;
+}
+.secion5 h2{
+    padding: 50px 0px;
+    font-size: 30px;  
+}
+
+.boton_whatsap{
+    position: absolute;
+    margin-top: 380px;
+    width: 70px;
+    height: 70px;
+    right: 55%;
+}
+.boton_hotmail{
+    position: absolute;
+    margin-top: 380px;
+    width: 70px;
+    height: 70px;
+    right: 25%;
+}
+.espacio2{
+    position: absolute;
+    color: white;
+    padding: 0px 0px;
+    font-size: 10px;
+   
+}
 
 
-@media (max-width:1200px){
-
-
-    .slider{
-        left: 0px;
-        position: absolute;
-        top:120px;
-        width: 100%;
-    }
-    
-    .slider li{
-        background-size:cover;
-        transform: translate(-20px); 
-        animation: slider 1s linear infinite;
-        width: 100%;
-        height: 500px;
-    }
-    .circulo{      
-        top:100px;
-    }
-    .mitad2{
-        top:320px;
-        
-    }
-
-
-    .mitad2 h1{
-        font-size: 60px;
-    }
-    .mitad2 h4{
-        margin-top: 30px;
-        font-size: 30px;   
-    }
-
-    
 
 }
